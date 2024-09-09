@@ -1,6 +1,7 @@
 // src/NoteForm.tsx
 import React, { useState, useEffect } from 'react';
 import { Note } from './types';
+import './NoteForm.css';
 
 interface NoteFormProps {
   initialNote?: Note | null;
